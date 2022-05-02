@@ -1,2 +1,2 @@
-# Picture-Palette
-iOS Application - Picture Palette ( Get color by your picture )
+# Picture-Pipette
+iOS Application - Picture Pipette ( Get color by your picture )
