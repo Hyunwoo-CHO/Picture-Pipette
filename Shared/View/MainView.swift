@@ -15,7 +15,7 @@ struct MainView: View {
     var body: some View {
         NavigationView {
             VStack {
-                self.image?.resizable().frame(width: 300, height: 400, alignment: .center)
+                self.image?.resizable().edgesIgnoringSafeArea(.all).aspectRatio(contentMode: .fit).frame(width: 300)
             }
             .navigationTitle("Picture Pipette")
             .navigationBarTitleDisplayMode(.inline)
